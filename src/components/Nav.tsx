@@ -7,12 +7,17 @@ const Nav = () => {
   function toggleMobileNav(): void {
     setMobileNav((prev) => !prev);
   }
+  function closeMobileNav(): void {
+    setMobileNav(false);
+  }
   return (
     <>
-      <nav className="fixed top-0 z-40 flex justify-center min-w-full bg-slate-950">
-        <div className="container flex justify-between p-4">
+      <nav className="fixed top-0 z-50 flex justify-center min-w-full bg-slate-950 ">
+        <div className="container flex justify-between p-4 ">
           <a href="#hero">
-            <p className="text-2xl font-semibold text-nowrap">My Portfolio</p>
+            <h1 className="text-2xl font-semibold select-none text-nowrap">
+              My Portfolio
+            </h1>
           </a>
 
           {/* check custom functions in tailwind.config */}
@@ -78,7 +83,7 @@ const Nav = () => {
         </div>
       </nav>
 
-      <MobileNav mobileNav={mobileNav} />
+      <MobileNav mobileNav={mobileNav} closeMobileNav={closeMobileNav} />
     </>
   );
 };
