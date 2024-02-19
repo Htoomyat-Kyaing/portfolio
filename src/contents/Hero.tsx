@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative flex flex-col items-center justify-center min-w-full min-h-screen mt-16 scroll-mt-16"
+      className="relative flex flex-col items-center justify-center min-w-full min-h-full mt-16 scroll-mt-16"
     >
       <div className="container flex flex-col justify-between items-center gap-4 p-4 md:flex-row before:content-[''] before:w-80 before:h-80 before:bg-violet-600 before:rounded-full before:absolute before:top-0 before:left-0 before:-z-10 before:blur-3xl before:opacity-50 after:content-[''] after:w-80 after:h-80 after:bg-violet-600 after:rounded-full after:absolute after:-z-10 after:blur-3xl after:opacity-50 after:bottom-0 after:right-0">
         <article className="flex flex-col flex-1 max-w-lg min-h-full gap-4 select-none">
