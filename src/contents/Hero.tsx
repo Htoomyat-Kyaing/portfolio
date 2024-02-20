@@ -25,7 +25,7 @@ const Hero = () => {
           />
 
           <div className="flex justify-between w-full *:transition-all *:delay-150 *:duration-300">
-            <img
+            {/* <img
               className="w-8 hover:-translate-y-2"
               src="/logos/facebook.svg"
               alt="facebook.svg"
@@ -34,7 +34,7 @@ const Hero = () => {
               className="w-8 hover:-translate-y-2"
               src="/logos/instagram.svg"
               alt="instagram.svg"
-            />
+            /> */}
             <img
               className="w-8 hover:-translate-y-2"
               src="/logos/github.svg"

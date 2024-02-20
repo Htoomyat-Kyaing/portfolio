@@ -2,8 +2,8 @@ import Hero from "./contents/Hero";
 import Nav from "./components/Nav";
 import Skills from "./contents/Skills";
 import Projects from "./contents/Projects";
-import WorkExperience from "./contents/WorkExperience";
 import ContaceMe from "./contents/ContaceMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,8 +13,9 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
-      <WorkExperience />
       <ContaceMe />
+
+      <Footer />
     </>
   );
 }

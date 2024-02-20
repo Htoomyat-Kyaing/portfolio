@@ -22,9 +22,6 @@ const MobileNav = ({
         <a href="#projects" onClick={() => closeMobileNav()}>
           <li>Projects</li>
         </a>
-        <a href="#work-experience" onClick={() => closeMobileNav()}>
-          <li>Work Experience</li>
-        </a>
         <a href="#contact-me" onClick={() => closeMobileNav()}>
           <li>Contact Me</li>
         </a>
